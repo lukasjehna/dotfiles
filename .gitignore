@@ -1,0 +1,12 @@
+cat << 'EOF' > .gitignore
+# Vim swap, backup, and undo files
+[._]*.swo
+[._]*.swp
+[._]*.swn
+*~
+*.un~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+EOF
